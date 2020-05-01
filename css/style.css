@@ -1,0 +1,141 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+  font-family:'Raleway', sans-serif;
+
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: #ef3550;
+}
+
+nav .brand-logo {
+  font-family: 'Reenie Beanie', cursive;
+}
+
+nav .nav-wrapper {
+    padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #ef3550;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-intro{
+  height: 100%;
+  width: 100%;
+}
+
+
+  .header{
+    margin-top: 20%;
+  }
+
+  .header-subtitle{
+    margin-top: 6%;
+    font-size: 1.4em;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .nav-wrapper {
+    padding: 0 5px;
+  }
+
+}
+
+.col-servizio{
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.col-servizio h5{
+  font-size: 2em;
+}
+
+#servizio p{
+  font-size: 1.2em;
+  line-height: 2.1em;
+}
+
+.section-registrazione{
+  height: 100%;
+  width: 100%;
+}
+
+.registrazione-icon{
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+.btn-registrazione {
+  width: 100%;
+}
+
+.ricette-icon{
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+.ricette-subtitle{
+  margin-top: 6%;
+  font-size: 1.4em;
+  line-height: 2em;
+}
+
+.btn-ricette {
+  width: 100%;
+}
+
+
+footer.page-footer {
+  background-color:3D6467;
+  margin: 0;
+}
+
+.social-icon {
+  font-size: 2em;
+  color: #fff;
+  padding: 3%;
+}
+
+.social-icon:hover {
+  color: #A9A9A9;
+}
